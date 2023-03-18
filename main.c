@@ -12,3 +12,8 @@ struct node *head;
 struct node *one = NULL;
 struct node *two = NULL;
 struct node *three = NULL;
+
+/* Allocate memory */
+one = malloc(sizeof(struct node));
+two = malloc(sizeof(struct node));
+three = malloc(sizeof(struct node));
