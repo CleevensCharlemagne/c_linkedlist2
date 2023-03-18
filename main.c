@@ -17,3 +17,8 @@ struct node *three = NULL;
 one = malloc(sizeof(struct node));
 two = malloc(sizeof(struct node));
 three = malloc(sizeof(struct node));
+
+/* Assign data values */
+one->data = 1;
+two->data = 2;
+three->data=3;
