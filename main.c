@@ -22,3 +22,11 @@ three = malloc(sizeof(struct node));
 one->data = 1;
 two->data = 2;
 three->data=3;
+
+/* Connect nodes */
+one->next = two;
+two->next = three;
+three->next = NULL;
+
+/* Save address of first node in head */
+head = one;
